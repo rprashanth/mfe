@@ -4,6 +4,7 @@ import {mount} from 'marketing/MarketingApp';
 
 
 export default ()=>{
+    console.log(90)
     const ref= useRef(null);
     useEffect(()=>{
         mount(ref.current)
